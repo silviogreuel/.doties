@@ -45,16 +45,17 @@ ZSH_THEME="theunraveler"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
+
 plugins=(git)
 
-# User configuration
-
+#-------Configuration-------
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-# export MANPATH="/usr/local/man:$MANPATH"
+LANG=en_US.UTF-8
 
+
+#----------Sources----------
 source $ZSH/oh-my-zsh.sh
 
-LANG=en_US.UTF-8
 
 
 #-------Env-Variables-------
@@ -64,7 +65,10 @@ else
   export EDITOR='mvim'
 fi
 
+export BROWSER='firefox'
+
 
 #----------Aliases----------
-dlias zshconfig="mate ~/.zshrc"
-alias ohmyzsh="mate ~/.oh-my-zsh"
+alias zshconfig='vim ~/.zshrc'
+alias ohmyzsh='vim ~/.oh-my-zsh'
+alias vimrc="vim ~/.vimrc"
