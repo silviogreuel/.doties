@@ -11,6 +11,7 @@ Plugin 'gmarik/Vundle.vim'
 "Colorschemes/Syntax
 Plugin 'flazz/vim-colorschemes'
 Plugin 'peterhoeg/vim-qml'
+Plugin 'scrooloose/syntastic'
 
 "Autocomplete
 Plugin 'Valloric/YouCompleteMe'
