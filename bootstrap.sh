@@ -3,7 +3,7 @@
 dir=~/.doties
 olddir=~/.doties/.old
 
-doties=".bashrc .vimrc .vim .zshrc"
+doties=".bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zshprofile .tmux.conf .zshprofile"
 
 run() {
 	backup_old_doties
@@ -28,7 +28,7 @@ symlink_doties() {
 
 	for dotie in $doties; do
 		echo "Symlinking $dotie"
-		ln -s $dir/$file ~/$dotie
+		ln -s $dir/$dotie ~/$dotie
 	done
 	
 	echo "Done!"

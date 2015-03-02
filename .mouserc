@@ -1,0 +1,3 @@
+razercfg -p 20
+xinput set-float-prop 10 "Device Accel Constant Deceleration" 8 2.0
+

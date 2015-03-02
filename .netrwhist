@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/home/silvio/.doties/.old'
+let g:netrw_dirhist_2='/home/silvio/.doties'
+let g:netrw_dirhist_3='/home/silvio/.doties/.old'
+let g:netrw_dirhist_4='/home/silvio/.doties'
+let g:netrw_dirhist_5='/home/silvio/.doties/.vim'
+let g:netrw_dirhist_6='/home/silvio/.vimrc'
+let g:netrw_dirhist_7='/home/silvio/.vim'
