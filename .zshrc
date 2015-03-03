@@ -28,6 +28,7 @@ fi
 
 export BROWSER='firefox'
 export MANPATH=/home/silvio/.nvm/v0.10.36/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man
+export ANDROID_HOME=/opt/android-sdk
 
 
 #----------Aliases----------
