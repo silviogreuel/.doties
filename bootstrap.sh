@@ -1,7 +1,7 @@
 #!/bin/bash
 
 dir=~/.doties
-olddir=~/.doties/.old
+olddir=~/.doties/old
 
 doties=".bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zshprofile .tmux.conf .zshprofile"
 
