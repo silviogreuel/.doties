@@ -12,6 +12,11 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'flazz/vim-colorschemes'
 Plugin 'peterhoeg/vim-qml'
 Plugin 'scrooloose/syntastic'
+Plugin 'Valloric/MatchTagAlways'
+Plugin 'othree/javascript-libraries-syntax.vim'
+"Plugin 'SyntaxComplete'
+"Plugin 'sukima/xmledit'
+Plugin 'ap/vim-css-color'
 
 "Autocomplete
 Plugin 'Valloric/YouCompleteMe'
