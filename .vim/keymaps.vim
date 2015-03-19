@@ -27,3 +27,9 @@ let g:ycm_semantic_triggers =  {
 let g:UltiSnipsExpandTrigger = "<c-a>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+"NERDtree
+nmap <f7> :NERDTreeToggle<cr>
+
+"tagbar
+nmap <f8> :TagbarToggle<cr> 

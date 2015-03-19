@@ -25,8 +25,7 @@ Plugin 'honza/vim-snippets'
 
 "Misc
 Plugin 'scrooloose/nerdtree'
-
-
+Plugin 'majutsushi/tagbar'
 
 "--------------------------
 
