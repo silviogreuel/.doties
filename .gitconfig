@@ -1,3 +1,5 @@
 [user]
 	email = silviogreuel@gmail.com
 	name = Silvio Greuel
+[core]
+	excludesfile = /home/silvio/.globalgitignore
