@@ -22,6 +22,7 @@ Plugin 'ap/vim-css-color'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'honza/vim-snippets'
+Plugin 'scrooloose/nerdcommenter'
 
 "Misc
 Plugin 'scrooloose/nerdtree'
