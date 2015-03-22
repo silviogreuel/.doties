@@ -10,4 +10,4 @@ fi
 git add --all;
 git commit -m "$message";
 git push github master;
-git bust bitbucket master;
+git push bitbucket master;
