@@ -35,4 +35,3 @@ export ANDROID_HOME=/opt/android-sdk
 alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 alias vimrc="vim ~/.vimrc"
-alias reloadzsh
