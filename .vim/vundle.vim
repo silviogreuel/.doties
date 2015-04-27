@@ -27,7 +27,7 @@ Plugin 'scrooloose/nerdcommenter'
 "Misc
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
-
+Plugin 'bling/vim-airline'
 "--------------------------
 
 

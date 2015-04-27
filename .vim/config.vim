@@ -11,3 +11,6 @@ let g:NERDTreeWinSize=20
 
 "tagbar
 let g:tagbar_width=30
+
+"vim-airline
+set laststatus=2
