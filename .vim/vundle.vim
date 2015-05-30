@@ -21,8 +21,10 @@ Plugin 'ap/vim-css-color'
 "Autocomplete
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
+Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdcommenter'
+"Plugin 'nsf/gocode', {'rtp': 'vim/'}
 
 "Misc
 Plugin 'scrooloose/nerdtree'
