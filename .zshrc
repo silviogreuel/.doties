@@ -36,4 +36,4 @@ alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 alias vimrc="vim ~/.vimrc"
 alias mkcd="mkdir \!^; cd \!^1"
-alias spcomp="/home/silvio/.local/share/Steam/steamapps/common/Counter-Strike Global Offensive/csgo/addons/sourcemod/scripting/spcomp"
+alias spcomp="/home/silvio/.local/share/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/addons/sourcemod/scripting/spcomp"
