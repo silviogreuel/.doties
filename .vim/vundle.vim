@@ -25,11 +25,23 @@ Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdcommenter'
 "Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'OmniSharp/omnisharp-vim'
+Plugin 'fatih/vim-go'
 
 "Misc
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
+Plugin 'tpope/vim-dispatch'
+Plugin 'kien/ctrlp.vim'
+
+"Presentation
+Plugin 'junegunn/goyo.vim'
+Plugin 'junegunn/limelight.vim'
+
+Plugin 'mhinz/vim-signify'
+Plugin 'Shougo/unite.vim'
+Plugin 'Kocha/vim-unite-tig'
 "--------------------------
 
 
