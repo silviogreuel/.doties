@@ -10,9 +10,24 @@ plugins=(git)
 
 #-------Configuration-------
 export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/silvio/.kre/packages/KRE-Mono.1.0.0-beta2/bin:/home/silvio/.nvm/v0.10.36/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/silvio/.composer/vendor/bin
-export LANG=en_US.UTF-8
-export LC_ALL=en_US.UTF-8
-export LC_CTYPE=en_US.UTF-8
+export LESSCHARSET="utf-8"
+export LOCALE="en_US.utf8"
+export LANG=en_US.utf8
+export LC="en_US.utf8"
+export LC_CTYPE="en_US.utf8"
+export LC_NUMERIC="en_US.utf8"
+export LC_TIME="en_US.utf8"
+export LC_COLLATE="en_US.utf8"
+export LC_MONETARY="en_US.utf8"
+export LC_MESSAGES="en_US.utf8"
+export LC_PAPER="en_US.utf8"
+export LC_NAME="en_US.utf8"
+export LC_ADDRESS="en_US.utf8"
+export LC_TELEPHONE="en_US.utf8"
+export LC_MEASUREMENT="en_US.utf8"
+export LC_IDENTIFICATION="en_US.utf8"
+export LC_ALL="en_US.utf8"
+
 
 #----------Sources----------
 source $ZSH/oh-my-zsh.sh
@@ -31,4 +46,5 @@ alias zshconfig='vim ~/.zshrc'
 alias ohmyzsh='vim ~/.oh-my-zsh'
 alias vimrc="vim ~/.vimrc"
 alias mkcd="mkdir \!^; cd \!^1"
-alias spcomp="/home/silvio/.local/share/Steam/steamapps/common/Counter-Strike\ Global\ Offensive/csgo/addons/sourcemod/scripting/spcomp"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting

@@ -27,6 +27,7 @@ Plugin 'scrooloose/nerdcommenter'
 "Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'fatih/vim-go'
+Plugin 'racer-rust/vim-racer'
 
 "Misc
 Plugin 'scrooloose/nerdtree'
