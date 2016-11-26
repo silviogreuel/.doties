@@ -5,7 +5,7 @@ ZSH_THEME="kolo"
 
 
 #----------Plugins----------
-plugins=(git)
+plugins=(git terraform go golang tmux docker docker-compose)
 
 
 #-------Configuration-------
@@ -28,7 +28,6 @@ export LC_MEASUREMENT="en_US.utf8"
 export LC_IDENTIFICATION="en_US.utf8"
 export LC_ALL="en_US.utf8"
 
-
 #----------Sources----------
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
@@ -40,6 +39,7 @@ export MANPATH=/home/silvio/.nvm/v0.10.36/share/man:/usr/local/man:/usr/local/sh
 export ANDROID_HOME=/opt/android-sdk
 export GOPATH=~/go
 export PATH=$PATH:~/go/bin
+export PATH=$PATH:~/.protoc/bin
 
 #----------Aliases----------
 alias zshconfig='vim ~/.zshrc'

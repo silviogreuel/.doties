@@ -17,10 +17,11 @@ Plugin 'othree/javascript-libraries-syntax.vim'
 "Plugin 'SyntaxComplete'
 "Plugin 'sukima/xmledit'
 Plugin 'ap/vim-css-color'
+Plugin 'posva/vim-vue'
 
 "Autocomplete
 Plugin 'Valloric/YouCompleteMe'
-Plugin 'SirVer/ultisnips'
+"Plugin 'SirVer/ultisnips'
 Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdcommenter'
@@ -28,6 +29,8 @@ Plugin 'scrooloose/nerdcommenter'
 Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'fatih/vim-go'
 Plugin 'racer-rust/vim-racer'
+Plugin 'rust-lang/rust.vim'
+
 
 "Misc
 Plugin 'scrooloose/nerdtree'
@@ -35,6 +38,7 @@ Plugin 'majutsushi/tagbar'
 Plugin 'bling/vim-airline'
 Plugin 'tpope/vim-dispatch'
 Plugin 'kien/ctrlp.vim'
+Plugin 'kshenoy/vim-signature'
 
 "Presentation
 Plugin 'junegunn/goyo.vim'
