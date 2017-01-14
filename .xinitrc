@@ -14,7 +14,14 @@ fi
 # Mouse
 ~/.mouserc
 
+
+# Default window manager
 session=${1:-kde}
+
+# To start another exec
+# $ xinit wmaker
+# or
+# startx ~/.xinitrc gnome
 
 case $session in
 	awesome           ) exec awesome;;
@@ -38,7 +45,6 @@ case $session in
 	unity             ) exec unity;;
 	xfce|xfce4        ) exec startxfce4;;
 	xmonad            ) exec xmonad;;
-	# No known session, try to run it as command
 	*) exec $1;;
 esac
 

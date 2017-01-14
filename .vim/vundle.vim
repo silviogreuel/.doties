@@ -21,6 +21,7 @@ Plugin 'posva/vim-vue'
 
 "Autocomplete
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plugin 'SirVer/ultisnips'
 Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
