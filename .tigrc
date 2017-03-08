@@ -1,2 +1,2 @@
-bind branch n !@git branch %(prompt)
-bind branch d !?@git branch -d %(branch)
+bind refs n !@git branch %(prompt)
+bind refs d !?@git branch -d %(branch)
