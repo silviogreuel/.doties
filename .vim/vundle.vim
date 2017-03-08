@@ -8,6 +8,10 @@ Plugin 'gmarik/Vundle.vim'
 
 "----------Plugins---------
 
+"Language
+"Octave
+Plugin 'jvirtanen/vim-octave'
+
 "Colorschemes/Syntax
 Plugin 'flazz/vim-colorschemes'
 Plugin 'peterhoeg/vim-qml'
