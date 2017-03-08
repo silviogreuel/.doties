@@ -3,3 +3,4 @@
 	name = Silvio Greuel
 [core]
 	excludesfile = /home/silvio/.globalgitignore
+	editor = vim
