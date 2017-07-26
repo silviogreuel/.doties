@@ -54,6 +54,7 @@ Plugin 'tpope/vim-fugitive'
 "Presentation
 Plugin 'junegunn/goyo.vim'
 Plugin 'junegunn/limelight.vim'
+Plugin 'ryanoasis/vim-devicons'
 
 Plugin 'mhinz/vim-signify'
 Plugin 'Shougo/unite.vim'
