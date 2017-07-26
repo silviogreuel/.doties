@@ -18,7 +18,6 @@ let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#branch#enabled=1
 let g:airline_powerline_fonts=1  "Mesloirline_powerline_fonts = 1
 
-
 "syntastic
 set statusline+=%#warningmsg#
 set statusline+=%{SyntasticStatuslineFlag()}
@@ -32,3 +31,14 @@ let g:syntastic_cpp_compiler = "g++"
 let g:syntastic_cpp_compiler_options = " -std=c++14"
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_vue_checkers = ['eslint']
+
+"goyo
+function! GoyoBefore()
+	Limelight
+endfunction
+
+function! GoyoAfter()
+	Limelight!
+endfunction
+
+let g:goyo_callbacks = [function("GoyoBefore"), function("GoyoAfter")]

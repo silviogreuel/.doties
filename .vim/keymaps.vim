@@ -46,3 +46,6 @@ nmap <f7> :NERDTreeToggle<cr>
 
 "tagbar
 nmap <f8> :TagbarToggle<cr> 
+
+"goyo
+nmap <f6> :Goyo<cr>
