@@ -49,3 +49,7 @@ nmap <f8> :TagbarToggle<cr>
 
 "goyo
 nmap <f6> :Goyo<cr>
+
+"doties
+map <f12> :NERDTree ~/.doties<cr>
+nmap <leader><f12> :source $MYVIMRC<cr>
