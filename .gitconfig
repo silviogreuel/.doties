@@ -4,3 +4,5 @@
 [core]
 	excludesfile = /home/silvio/.globalgitignore
 	editor = vim
+[alias]
+	start = !git init && git commit --allow-empty -m \"Initial commit\"

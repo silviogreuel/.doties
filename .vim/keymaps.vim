@@ -1,3 +1,16 @@
+"line selection without identation
+nnoremap vv ^vg_
+
+"tab selection
+map <leader>1 1gt
+map <leader>2 2gt
+map <leader>3 3gt
+map <leader>4 4gt
+map <leader>5 5gt
+map <leader>6 6gt
+map <leader>7 7gt
+map <leader>9 9gt
+
 "Pane switching
 map <C-j> <C-W>j
 map <C-k> <C-W>k

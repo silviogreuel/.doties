@@ -1,8 +1,8 @@
 set number 
-set tabstop=4
+set tabstop=2
 set softtabstop=0 
 set noexpandtab 
-set shiftwidth=4
+set shiftwidth=2
 set backspace=2
 set nowrap
 
@@ -14,6 +14,10 @@ let g:tagbar_width=30
 
 "vim-airline
 set laststatus=2
+let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#branch#enabled=1
+let g:airline_powerline_fonts=1  "Mesloirline_powerline_fonts = 1
+
 
 "syntastic
 set statusline+=%#warningmsg#
@@ -24,3 +28,7 @@ let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
 let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
+let g:syntastic_cpp_compiler = "g++"
+let g:syntastic_cpp_compiler_options = " -std=c++14"
+let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_vue_checkers = ['eslint']
