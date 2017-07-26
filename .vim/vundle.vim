@@ -38,7 +38,7 @@ Plugin 'OmniSharp/omnisharp-vim'
 Plugin 'fatih/vim-go'
 Plugin 'racer-rust/vim-racer'
 Plugin 'rust-lang/rust.vim'
-
+Plugin 'sheerun/vim-polyglot'
 
 "Misc
 Plugin 'scrooloose/nerdtree'
