@@ -52,6 +52,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
+Plugin 'sjl/gundo.vim'
 
 "Presentation
 Plugin 'junegunn/goyo.vim'

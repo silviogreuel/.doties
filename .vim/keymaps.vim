@@ -47,14 +47,17 @@ let g:UltiSnipsExpandTrigger = "<c-a>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
+"goyo
+nmap <f5> :Goyo<cr>
+
+"Gundo
+nmap <f6> :GundoToggle<cr>
+
 "NERDtree
 nmap <f7> :NERDTreeToggle<cr>
 
 "tagbar
 nmap <f8> :TagbarToggle<cr> 
-
-"goyo
-nmap <f6> :Goyo<cr>
 
 "doties
 map <f12> :NERDTree ~/.doties<cr>
