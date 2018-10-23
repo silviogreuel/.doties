@@ -16,7 +16,7 @@ fi
 
 
 # Default window manager
-session=${1:-kde}
+session=${1:-i3}
 
 # To start another exec
 # $ xinit wmaker
