@@ -25,16 +25,22 @@ Plugin 'mxw/vim-jsx'
 Plugin 'ap/vim-css-color'
 Plugin 'posva/vim-vue'
 "Plugin 'sekel/vim-vue-syntastic'
+Plugin 'zefei/vim-colortuner'
 
 "Autocomplete
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'rdnetto/YCM-Generator', { 'branch': 'stable'}
+Plugin 'Shougo/deoplete.nvim'
+Plugin 'roxma/nvim-yarp'
+Plugin 'roxma/vim-hug-neovim-rpc'
+Plugin 'Robzz/deoplete-omnisharp'
+"Plugin 'Valloric/YouCompleteMe'
+"Plugin 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plugin 'SirVer/ultisnips'
 Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdcommenter'
 "Plugin 'nsf/gocode', {'rtp': 'vim/'}
 Plugin 'OmniSharp/omnisharp-vim'
+Plugin 'OmniSharp/omnisharp-roslyn'
 Plugin 'fatih/vim-go'
 Plugin 'racer-rust/vim-racer'
 Plugin 'rust-lang/rust.vim'
@@ -53,6 +59,7 @@ Plugin 'kshenoy/vim-signature'
 Plugin 'tpope/vim-fugitive'
 Plugin 'godlygeek/tabular'
 Plugin 'sjl/gundo.vim'
+Plugin 'terryma/vim-multiple-cursors'
 
 "Presentation
 Plugin 'junegunn/goyo.vim'

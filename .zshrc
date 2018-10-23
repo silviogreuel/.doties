@@ -29,6 +29,7 @@ export LC_TELEPHONE="en_US.utf8"
 export LC_MEASUREMENT="en_US.utf8"
 export LC_IDENTIFICATION="en_US.utf8"
 export LC_ALL="en_US.utf8"
+export TERMINAL="konsole"
 
 #----------Sources----------
 source $ZSH/oh-my-zsh.sh
