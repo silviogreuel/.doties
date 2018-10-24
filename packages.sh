@@ -72,6 +72,7 @@ pacman_packages=(
 	openssh
 	pulsemixer
 	vlc
+	firefox
 )
 
 aur_packages=(
@@ -80,6 +81,7 @@ aur_packages=(
 
 	# applications / utils
 	ngrok
+	google-chrome
 )
 
 install_using_pacman() {
