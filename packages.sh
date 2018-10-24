@@ -48,6 +48,7 @@ pacman_packages=(
 	i3status
 	dmenu
 	rofi
+	nitrogen
 
 	# virtualization / containerization
 	docker
