@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 curl -o /etc/pacman.d/mirrorlist.backup https://www.archlinux.org/mirrorlist/all/
 cp /etc/pacman.d/mirrorlist.backup /etc/pacman.d/mirrorlist
