@@ -72,7 +72,7 @@ install_from_pacman() {
 	done
 
 	if [ "${#to_install}" -gt 0 ]; then
-		$as_root pacman -Sy $to_install
+		$as_root pacman -Sy "${to_install[@]}"
 	else
 		info "Done installing all packages"
 	fi
