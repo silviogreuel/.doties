@@ -82,6 +82,7 @@ aur_packages=(
 	# applications / utils
 	ngrok
 	google-chrome
+	barrier
 )
 
 install_using_pacman() {
