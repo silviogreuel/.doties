@@ -10,6 +10,10 @@ info() {
 }
 
 pacman_packages=(
+	# arch
+	dkms
+	linux-headers
+
 	# programming 
 	ctags
 	clang
@@ -43,6 +47,14 @@ pacman_packages=(
 	i3status
 	dmenu
 	rofi
+
+	# virtualization / containerization
+	docker
+	docker-machine
+	docker-compose
+	virtualbox
+	virtualbox-guest-iso
+	virtualbox-host-modules-arch
 
 	# applications / utils
 	htop
