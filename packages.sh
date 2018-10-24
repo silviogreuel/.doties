@@ -61,7 +61,7 @@ pacman_packages=(
 	vlc
 )
 
-aur_packages(
+aur_packages=(
 	# window managers / utils
 	polybar
 
