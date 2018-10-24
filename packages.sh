@@ -42,7 +42,8 @@ pacman_packages=(
 	kitty
 	rxvt-unicode
 
-	# window managers / utils
+	# window managers / desktop 
+	xorg-xinit
 	i3-gaps
 	i3status
 	dmenu
