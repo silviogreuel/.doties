@@ -4,7 +4,7 @@
 dir=~/.doties
 olddir=~/.doties/old
 
-doties=".bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zprofile .tmux.conf .zshprofile .globalgitignore .vimperatorrc .tigrc .config/i3"
+doties=".bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zprofile .tmux.conf .zshprofile .globalgitignore .vimperatorrc .tigrc .config/i3 .config/rofi"
 
 run() {
 	backup_old_doties
