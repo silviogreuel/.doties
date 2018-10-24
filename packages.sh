@@ -49,6 +49,7 @@ pacman_packages=(
 	dmenu
 	rofi
 	nitrogen
+	compton
 
 	# virtualization / containerization
 	docker
