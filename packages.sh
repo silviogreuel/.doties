@@ -9,7 +9,7 @@ info() {
 	printf "$(tput bold)$(tput setaf 4) -> $1$(tput sgr0)\n"
 }
 
-packages=(
+pacman_packages=(
 	# programming 
 	ctags
 	clang
@@ -43,12 +43,10 @@ packages=(
 	i3status
 	dmenu
 	rofi
-	polybar
 
 	# applications / utils
 	htop
 	glances
-	ngrok
 	devtools
 	ranger
 	mutt
@@ -63,7 +61,15 @@ packages=(
 	vlc
 )
 
-install_from_pacman() {
+aur_packages(
+	# window managers / utils
+	polybar
+
+	# applications / utils
+	ngrok
+)
+
+install_using_pacman() {
 	packages=("$@")
 
 	to_install=()
@@ -74,9 +80,25 @@ install_from_pacman() {
 	if [ "${#to_install}" -gt 0 ]; then
 		$as_root pacman -Sy "${to_install[@]}"
 	else
-		info "Done installing all packages"
+		info "Done installing all packages from pacman"
 	fi
 }
 
-install_from_pacman "${packages[@]}"
+install_using_yay() {
+	packages=("$@")
+
+	to_install=()
+	for pack in "${packages[@]}"; do
+		pacman -Qq $pack > /dev/null 2>&1 || to_install+=("$pack")
+	done
+
+	if [ "${#to_install}" -gt 0 ]; then
+		yay -Sy "${to_install[@]}"
+	else
+		info "Done installing all packages from aur"
+	fi
+}
+
+install_using_pacman "${pacman_packages[@]}"
+install_using_yay "${aur_packages[@]}"
 
