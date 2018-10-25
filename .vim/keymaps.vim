@@ -64,6 +64,10 @@ augroup omnisharp_commands
 augroup END
 
 
+"deoplete
+imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
+imap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<tab>"
+imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
 
 "doties
 map <f12> :NERDTree ~/.doties<cr>

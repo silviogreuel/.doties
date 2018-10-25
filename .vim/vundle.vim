@@ -7,14 +7,12 @@ Plugin 'gmarik/Vundle.vim'
 
 
 "----------Plugins---------
-
-"Language
-"Octave
-Plugin 'jvirtanen/vim-octave'
+"Planning to use vim-plug
+"- adding ahead some options like go
 
 "Colorschemes/Syntax
 Plugin 'flazz/vim-colorschemes'
-Plugin 'clinstid/eink.vim'
+Plugin 'clinstid/eink.vim' 
 Plugin 'peterhoeg/vim-qml'
 Plugin 'scrooloose/syntastic'
 Plugin 'Valloric/MatchTagAlways'
@@ -28,20 +26,34 @@ Plugin 'posva/vim-vue'
 Plugin 'zefei/vim-colortuner'
 
 "Autocomplete
-Plugin 'Shougo/deoplete.nvim'
-Plugin 'roxma/nvim-yarp'
-Plugin 'roxma/vim-hug-neovim-rpc'
-Plugin 'Robzz/deoplete-omnisharp'
+if has('nvim')
+	Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+	Plugin 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+	Plugin 'roxma/nvim-yarp'
+	Plugin 'roxma/vim-hug-neovim-rpc'
+endif
+
+" golang
+Plugin 'zchee/deoplete-go', { 'do': 'make' }
+Plugin 'fatih/vim-go', { 'do': 'GoInstallBinaries' }
+Plugin 'nsf/gocode', {'rtp': 'vim/'}
+
+" chsarp
+Plugin 'OmniSharp/omnisharp-vim'
+Plugin 'OmniSharp/omnisharp-roslyn'
+Plugin 'cyansprite/deoplete-omnisharp' , {'do': './install.sh'}
+
+" octave/matlab
+Plugin 'jvirtanen/vim-octave'
+
+
 "Plugin 'Valloric/YouCompleteMe'
 "Plugin 'rdnetto/YCM-Generator', { 'branch': 'stable'}
 "Plugin 'SirVer/ultisnips'
 Plugin 'SuperTab'
 Plugin 'honza/vim-snippets'
 Plugin 'scrooloose/nerdcommenter'
-"Plugin 'nsf/gocode', {'rtp': 'vim/'}
-Plugin 'OmniSharp/omnisharp-vim'
-Plugin 'OmniSharp/omnisharp-roslyn'
-Plugin 'fatih/vim-go'
 Plugin 'racer-rust/vim-racer'
 Plugin 'rust-lang/rust.vim'
 Plugin 'sheerun/vim-polyglot'
@@ -49,11 +61,9 @@ Plugin 'sheerun/vim-polyglot'
 "Misc
 Plugin 'scrooloose/nerdtree'
 Plugin 'majutsushi/tagbar'
-"Plugin 'bling/vim-airline' down there
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-dispatch'
-"Plugin 'kien/ctrlp.vim' down there
 Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'kshenoy/vim-signature'
 Plugin 'tpope/vim-fugitive'
