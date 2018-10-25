@@ -37,7 +37,7 @@ endif
 " golang
 Plugin 'zchee/deoplete-go', { 'do': 'make' }
 Plugin 'fatih/vim-go', { 'do': 'GoInstallBinaries' }
-Plugin 'nsf/gocode', {'rtp': 'vim/'}
+Plugin 'mdempsky/gocode', {'rtp': 'vim/'}
 
 " chsarp
 Plugin 'OmniSharp/omnisharp-vim'
