@@ -35,6 +35,8 @@ pacman_packages=(
 	emacs # search for spacemacs
 	vim
 	neovim
+	python-neovim
+	python2-neovim
 	code
 
 	# terminal emulators
