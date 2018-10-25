@@ -11,6 +11,11 @@ else
 	Plug 'roxma/vim-hug-neovim-rpc'
 endif
 
+" snippets
+Plug 'Shougo/neosnippet'
+Plug 'Shougo/neosnippet-snippets'
+Plug 'honza/vim-snippets'
+
 " golang
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'mdempsky/gocode', {'rtp': 'vim/'}
