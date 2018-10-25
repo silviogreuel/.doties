@@ -5,7 +5,7 @@ ZSH_THEME="kolo"
 
 
 #----------Plugins----------
-plugins=(git terraform go golang tmux docker docker-compose)
+plugins=(git terraform go golang tmux docker docker-compose aws)
 
 
 #-------Configuration-------
