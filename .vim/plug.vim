@@ -24,6 +24,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make' }
 " syntax/colorscheme
 Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/syntastic'
+Plug 'w0rp/ale'
 
 " misc
 Plug 'sheerun/vim-polyglot'
@@ -48,5 +49,5 @@ Plug 'ryanoasis/vim-devicons'
 Plug 'mhinz/vim-signify'
 Plug 'Shougo/unite.vim'
 Plug 'Kocha/vim-unite-tig'
-"
+
 call plug#end()
