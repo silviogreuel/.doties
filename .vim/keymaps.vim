@@ -49,6 +49,9 @@ nmap <f7> :NERDTreeToggle<cr>
 "tagbar
 nmap <f8> :TagbarToggle<cr> 
 
+nmap <f9> :DlvToggleBreakpoint<cr>
+nmap <C-f9> :DlvDebug<cr>
+
 augroup omnisharp_commands
 	autocmd!
   
