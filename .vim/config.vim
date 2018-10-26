@@ -25,7 +25,7 @@ endif
 let g:deoplete#enable_smart_case = 1
 let g:deoplete#sources = {}
 "let g:deoplete#sources._=['buffer', 'ultisnips', 'file', 'dictionary']
-let g:deoplete#sources._ = ['neosnippet', 'buffer', 'file', 'dictionary']
+"let g:deoplete#sources._ = ['neosnippet', 'buffer', 'file', 'dictionary']
 let g:deoplete#sources.cs = ['cs', 'ultisnips', 'buffer']
 let g:deoplete#sources.python = ['jedi', 'ultisnips', 'buffer']
 let g:deoplete#sources.javascript = ['ternjs', 'ultisnips', 'buffer']
