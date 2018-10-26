@@ -61,6 +61,9 @@ let g:go_fmt_command = "goimports"
 let g:go_highlight_functions = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_structs = 1
+let g:go_auto_type_info = 1
+let g:go_gocode_autobuild = 1
+let g:go_gocode_propose_builtins = 1
 
 "YouCompleteMe
 "let g:ycm_complete_in_comments=1
