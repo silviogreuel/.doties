@@ -17,7 +17,7 @@ map <leader>6 6gt
 map <leader>7 7gt
 map <leader>9 9gt
 
-"Pane switching
+"pane switching
 map <C-j> <C-W>j
 map <C-k> <C-W>k
 map <C-h> <C-W>h
@@ -27,6 +27,15 @@ map <C-l> <C-W>l
 let g:UltiSnipsExpandTrigger = "<c-a>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
 let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" Shougo/neosnippet
+imap <C-k> <Plug>(neosnippet_expand_or_jump)
+smap <C-k> <Plug>(neosnippet_expand_or_jump)
+xmap <C-k> <Plug>(neosnippet_expand_target)
+smap <expr><TAB> neosnippet#expandable_or_jumpable() ?
+
+" fatih/vim-go
+let g:go_snippet_engine = "neosnippet"
 
 "goyo
 nmap <f5> :Goyo<cr>

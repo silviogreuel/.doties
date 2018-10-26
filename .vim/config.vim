@@ -25,6 +25,7 @@ endif
 let g:deoplete#enable_smart_case = 1
 let g:deoplete#sources = {}
 "let g:deoplete#sources._=['buffer', 'ultisnips', 'file', 'dictionary']
+let g:deoplete#sources._ = ['neosnippet', 'buffer', 'file', 'dictionary']
 let g:deoplete#sources.cs = ['cs', 'ultisnips', 'buffer']
 let g:deoplete#sources.python = ['jedi', 'ultisnips', 'buffer']
 let g:deoplete#sources.javascript = ['ternjs', 'ultisnips', 'buffer']
@@ -34,6 +35,14 @@ let g:deoplete#omni#input_patterns = {}
 let g:deoplete#omni#input_patterns.cs = ['\w*']
 let g:deoplete#omni#input_patterns.rust = '[(\.)(::)]'
 let g:deoplete#keyword_patterns = {}
+
+" Shougo/neosnippet
+let g:neosnippet#enable_completed_snippet = 1
+let g:neosnippet#enable_snipmate_compatibility = 1
+let g:neosnippet#snippets_directory='~/.vim/plugged/vim-snippets/snippets'
+let g:neosnippet#disable_runtime_snippets = {
+    \ 'go': 1
+\}
 
 " nerdtree
 let g:NERDTreeWinSize=20
