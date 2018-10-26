@@ -51,3 +51,5 @@ alias vimrc="vim ~/.vimrc"
 alias mkcd="mkdir \!^; cd \!^1"
 
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

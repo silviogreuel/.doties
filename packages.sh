@@ -77,6 +77,8 @@ pacman_packages=(
 	pulsemixer
 	vlc
 	firefox
+	the_silver_searcher
+	ripgrep
 )
 
 aur_packages=(

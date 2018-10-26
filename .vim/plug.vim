@@ -31,12 +31,14 @@ Plug 'scrooloose/nerdtree'
 Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
 Plug 'godlygeek/tabular'
 Plug 'sjl/gundo.vim'
 
-"Presentation
+" presentation
 Plug 'kshenoy/vim-signature'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
