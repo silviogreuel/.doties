@@ -38,6 +38,9 @@ Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
 Plug 'godlygeek/tabular'
 Plug 'sjl/gundo.vim'
+Plug 'Shougo/vimshell.vim'
+Plug 'Shougo/vimproc.vim'
+Plug 'sebdah/vim-delve'
 
 " presentation
 Plug 'kshenoy/vim-signature'

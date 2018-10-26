@@ -25,6 +25,7 @@ pacman_packages=(
 	
 	#languages
 	go
+	delve
 	ruby
 	lua
 	perl
