@@ -53,8 +53,8 @@ augroup golang
 	autocmd!
 	autocmd FileType go nmap <buffer> <f9> :DlvToggleBreakpoint<cr>
 	autocmd FileType go nmap <buffer> <C-f9> :DlvDebug<cr>
-	autocmd FileType go nmap <buffer> <f9> :GoBuild -i<cr>
-	autocmd FileType go nmap <buffer> <C-f9> :GoRun %<cr>
+	autocmd FileType go nmap <buffer> <f10> :GoBuild -i<cr>
+	autocmd FileType go nmap <buffer> <C-f10> :GoRun %<cr>
 augroup END
 
 augroup omnisharp_commands
