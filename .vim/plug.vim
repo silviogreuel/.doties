@@ -26,8 +26,25 @@ Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/syntastic'
 
 " misc
+Plug 'sheerun/vim-polyglot'
 Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
 Plug 'majutsushi/tagbar'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'tpope/vim-dispatch'
+Plug 'tpope/vim-fugitive'
+Plug 'godlygeek/tabular'
+Plug 'sjl/gundo.vim'
 
+"Presentation
+Plug 'kshenoy/vim-signature'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+Plug 'junegunn/goyo.vim'
+Plug 'junegunn/limelight.vim'
+Plug 'ryanoasis/vim-devicons'
+Plug 'mhinz/vim-signify'
+Plug 'Shougo/unite.vim'
+Plug 'Kocha/vim-unite-tig'
+"
 call plug#end()
