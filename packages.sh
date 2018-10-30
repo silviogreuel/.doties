@@ -80,6 +80,7 @@ pacman_packages=(
 	firefox
 	the_silver_searcher
 	ripgrep
+	alsa-utils
 )
 
 aur_packages=(
