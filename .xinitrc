@@ -49,3 +49,6 @@ case $session in
 esac
 
 exec xbindkeys
+
+setxkbmap -option compose:ralt
+
