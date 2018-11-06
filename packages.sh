@@ -81,6 +81,8 @@ pacman_packages=(
 	the_silver_searcher
 	ripgrep
 	alsa-utils
+	slop
+	main
 )
 
 aur_packages=(
