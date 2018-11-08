@@ -51,4 +51,4 @@ esac
 exec xbindkeys
 
 setxkbmap -option compose:ralt
-
+xset -b
