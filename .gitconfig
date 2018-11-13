@@ -6,3 +6,10 @@
 	editor = vim
 [alias]
 	start = !git init && git commit --allow-empty -m \"Initial commit\"
+[diff]
+	tool = vimdiff
+[merge]
+	tool = vimdiff
+	conflictstyle = diff3
+[mergetool]
+	prompt = false
