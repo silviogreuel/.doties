@@ -82,7 +82,8 @@ pacman_packages=(
 	ripgrep
 	alsa-utils
 	slop
-	main
+	maim
+	exfat-utils
 )
 
 aur_packages=(
