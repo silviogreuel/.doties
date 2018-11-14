@@ -15,6 +15,7 @@ endif
 Plug 'Shougo/neosnippet'
 Plug 'Shougo/neosnippet-snippets'
 Plug 'honza/vim-snippets'
+Plug 'mattn/emmet-vim'
 
 " golang
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
