@@ -61,6 +61,8 @@ pacman_packages=(
 	virtualbox
 	virtualbox-guest-iso
 	virtualbox-host-modules-arch
+	qemu
+	qemu-arch-extra
 
 	# applications / utils
 	htop
