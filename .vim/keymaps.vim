@@ -23,6 +23,13 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+"diff
+if &diff
+    map <leader>1 :diffget LOCAL<CR>
+    map <leader>2 :diffget BASE<CR>
+    map <leader>3 :diffget REMOTE<CR>
+endif
+
 "UltiSnips
 let g:UltiSnipsExpandTrigger = "<c-a>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
