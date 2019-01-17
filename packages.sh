@@ -40,10 +40,12 @@ pacman_packages=(
 	python2-neovim
 	code
 
-	# terminal emulators
+	# terminal
 	alacritty
 	kitty
 	rxvt-unicode
+	tmux
+	zsh
 
 	# window managers / desktop 
 	xorg-xinit
@@ -86,6 +88,7 @@ pacman_packages=(
 	slop
 	maim
 	exfat-utils
+	networkmanager
 )
 
 aur_packages=(
@@ -96,6 +99,7 @@ aur_packages=(
 	ngrok
 	google-chrome
 	barrier
+	nvm
 )
 
 install_using_pacman() {
