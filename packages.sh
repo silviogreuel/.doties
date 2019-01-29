@@ -89,6 +89,8 @@ pacman_packages=(
 	maim
 	exfat-utils
 	networkmanager
+	aws-cli
+	terraform
 )
 
 aur_packages=(
