@@ -24,7 +24,8 @@ pacman_packages=(
 	gcc
 	llvm
 	emscripten
-	
+	dlang-dmd
+
 	#languages
 	go
 	delve
