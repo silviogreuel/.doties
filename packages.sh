@@ -22,6 +22,8 @@ pacman_packages=(
 	git
 	tig
 	gcc
+	llvm
+	emscripten
 	
 	#languages
 	go
