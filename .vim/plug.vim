@@ -42,6 +42,8 @@ Plug 'sjl/gundo.vim'
 Plug 'Shougo/vimshell.vim'
 Plug 'Shougo/vimproc.vim'
 Plug 'sebdah/vim-delve'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 
 " presentation
 Plug 'kshenoy/vim-signature'

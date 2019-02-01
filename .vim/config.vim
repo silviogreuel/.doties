@@ -121,3 +121,9 @@ let g:goyo_callbacks = [function("GoyoBefore"), function("GoyoAfter")]
 let g:user_emmet_leader_key=','
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+" mattn/gist-vim
+let g:gist_clip_command='xclip -selection clipboard'
+let g:gist_detect_filetype=1
+let g:gist_open_browser_after_post=1
+let g:gist_post_private=1
