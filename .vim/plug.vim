@@ -44,6 +44,7 @@ Plug 'Shougo/vimproc.vim'
 Plug 'sebdah/vim-delve'
 Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'
+Plug 'dkprice/vim-easygrep'
 
 " presentation
 Plug 'kshenoy/vim-signature'
