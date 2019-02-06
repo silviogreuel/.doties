@@ -5,7 +5,7 @@ ZSH_THEME="muse"
 
 
 #----------Plugins----------
-plugins=(ssh-agent fzf git terraform go golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting)
+plugins=(ssh-agent fzf git terraform go golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting github)
 
 #----------Config-----------
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'

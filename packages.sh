@@ -96,6 +96,7 @@ pacman_packages=(
 	terraform
 	dhclient
 	tree
+	hub
 )
 
 aur_packages=(
