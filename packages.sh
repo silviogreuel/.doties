@@ -95,6 +95,7 @@ pacman_packages=(
 	aws-cli
 	terraform
 	dhclient
+	tree
 )
 
 aur_packages=(
