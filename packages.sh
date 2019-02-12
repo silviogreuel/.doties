@@ -97,6 +97,7 @@ pacman_packages=(
 	dhclient
 	tree
 	hub
+	nmap
 )
 
 aur_packages=(
