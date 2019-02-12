@@ -1,12 +1,14 @@
 export ZSH=$HOME/.oh-my-zsh
 
 #----------Themes-----------
-ZSH_THEME="kolo"
+ZSH_THEME="muse"
 
 
 #----------Plugins----------
-plugins=(git terraform go golang tmux docker docker-compose aws)
+plugins=(ssh-agent fzf git terraform go golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting github)
 
+#----------Config-----------
+ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'
 
 #-------Configuration-------
 export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/silvio/.kre/packages/KRE-Mono.1.0.0-beta2/bin:/home/silvio/.nvm/v0.10.36/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/silvio/.composer/vendor/bin
@@ -53,3 +55,10 @@ alias mkcd="mkdir \!^; cd \!^1"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh

@@ -64,6 +64,12 @@ let g:go_highlight_structs = 1
 let g:go_auto_type_info = 1
 let g:go_gocode_autobuild = 1
 let g:go_gocode_propose_builtins = 1
+let g:go_test_show_name=1
+let g:go_updatetime=500
+let g:go_gocode_unimported_packages=1
+let g:go_highlight_extra_types=1
+let g:go_highlight_operators=1 
+let g:go_highlight_functions=1
 
 "YouCompleteMe
 "let g:ycm_complete_in_comments=1
@@ -121,3 +127,9 @@ let g:goyo_callbacks = [function("GoyoBefore"), function("GoyoAfter")]
 let g:user_emmet_leader_key=','
 let g:user_emmet_install_global = 0
 autocmd FileType html,css EmmetInstall
+
+" mattn/gist-vim
+let g:gist_clip_command='xclip -selection clipboard'
+let g:gist_detect_filetype=1
+let g:gist_open_browser_after_post=1
+let g:gist_post_private=1
