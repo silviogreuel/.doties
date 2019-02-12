@@ -1,3 +1,4 @@
+bind main ! !git revert %(commit)
 bind refs n !@git branch %(prompt)
 bind refs d !?@git branch -d %(branch)
 bind status P !git push origin
