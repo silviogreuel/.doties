@@ -98,6 +98,7 @@ pacman_packages=(
 	tree
 	hub
 	nmap
+	firejail
 )
 
 aur_packages=(
