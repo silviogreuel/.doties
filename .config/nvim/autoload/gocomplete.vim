@@ -1,0 +1,1 @@
+/home/greuel/.vim/plugged/gocode/nvim/autoload/gocomplete.vim

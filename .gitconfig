@@ -15,3 +15,5 @@
 	prompt = false
 [github]
 	user = silviogreuel
+[url "git@github.com:"]
+	insteadOf = https://github.com/

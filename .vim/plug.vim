@@ -19,7 +19,7 @@ Plug 'mattn/emmet-vim'
 
 " golang
 Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
-Plug 'mdempsky/gocode', {'rtp': 'vim/'}
+Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' }
 Plug 'zchee/deoplete-go', { 'do': 'make' }
 
 " syntax/colorscheme
