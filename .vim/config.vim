@@ -1,7 +1,7 @@
 set number 
 set tabstop=2
 set softtabstop=0 
-set noexpandtab 
+set expandtab 
 set shiftwidth=2
 set backspace=2
 set nowrap
