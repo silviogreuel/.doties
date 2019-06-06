@@ -45,6 +45,7 @@ Plug 'sebdah/vim-delve'
 Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'
 Plug 'dkprice/vim-easygrep'
+Plug 'terryma/vim-multiple-cursors'
 
 " presentation
 Plug 'kshenoy/vim-signature'
