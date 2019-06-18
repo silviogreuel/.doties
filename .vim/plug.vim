@@ -46,6 +46,7 @@ Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'
 Plug 'dkprice/vim-easygrep'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'yardnsm/vim-import-cost', { 'do': 'npm install' }
 
 " presentation
 Plug 'kshenoy/vim-signature'
