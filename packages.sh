@@ -99,6 +99,7 @@ pacman_packages=(
 	hub
 	nmap
 	firejail
+  reflector
 )
 
 aur_packages=(
