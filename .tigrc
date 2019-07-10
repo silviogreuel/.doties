@@ -1,7 +1,11 @@
 bind main ! !git revert %(commit)
+bind main S !?git reset --soft %(commit)
+bind main H !?git reset --hard %(commit)
 bind main u !git rev-list %(commit)..master --ancestry-path
 bind main U !git rev-list %(commit)..master --first-parent
 bind refs n !@git branch %(prompt)
 bind refs d !?@git branch -d %(branch)
 bind status P !git push origin
 bind status D !?@rm %(file)
+bind status S !?git stash save --keep-index %(prompt)
+bind status O !git push --set-upstream origin %(branch)
