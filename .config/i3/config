@@ -123,6 +123,10 @@ bindsym $mod+Shift+0 move container to workspace 10
 # take screenshot
 bindsym Print exec maim -s | xclip -selection clipboard -t image/png
 
+# record screen as a gif
+bindsym Ctrl+Print exec ~/.bin/start-gif.sh
+bindsym Ctrl+Shift+Print exec ~/.bin/stop-gif.sh
+
 # Pulse Audio controls
 bindsym XF86AudioRaiseVolume exec --no-startup-id pactl -- set-sink-volume 0 +5% #increase sound volume
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl -- set-sink-volume 0 -5% #decrease sound volume
