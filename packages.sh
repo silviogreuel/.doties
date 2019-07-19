@@ -74,6 +74,7 @@ pacman_packages=(
 	glances
 	devtools
 	ranger
+  w3m
 	mutt
 	fzf
 	bat
