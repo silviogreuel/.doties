@@ -5,7 +5,7 @@ ZSH_THEME="muse"
 
 
 #----------Plugins----------
-plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting github ruby rake gem rails)
+plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-syntax-highlighting history-substring-search github ruby rake gem rails)
 
 #----------Config-----------
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'
@@ -50,6 +50,7 @@ export ANDROID_HOME=/opt/android-sdk
 export GOPATH=~/go
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.protoc/bin
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
 #----------Aliases----------
 alias zshconfig='vim ~/.zshrc'
