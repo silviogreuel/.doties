@@ -11,7 +11,7 @@ plugins=(ssh-agent fzf git terraform go golang tmux docker docker-compose aws zs
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'
 
 #-------Configuration-------
-export PATH=$HOME/bin:/usr/local/bin:$PATH:/home/silvio/.kre/packages/KRE-Mono.1.0.0-beta2/bin:/home/silvio/.nvm/v0.10.36/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/silvio/.composer/vendor/bin
+export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/silvio/.composer/vendor/bin
 export LESSCHARSET="utf-8"
 export LOCALE="en_US.utf8"
 export LANG=en_US.utf8
@@ -40,7 +40,7 @@ source /usr/share/nvm/init-nvm.sh
 
 #-------Env-Variables-------
 export BROWSER='firefox'
-export MANPATH=/home/silvio/.nvm/v0.10.36/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man
+export MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man
 export ANDROID_HOME=/opt/android-sdk
 export GOPATH=~/go
 export PATH=$PATH:~/go/bin
