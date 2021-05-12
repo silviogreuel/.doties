@@ -54,6 +54,7 @@ pacman_packages=(
 	xorg-xinit
 	i3-gaps
 	i3status
+	sway
 	dmenu
 	rofi
 	nitrogen
@@ -69,12 +70,13 @@ pacman_packages=(
 	qemu
 	qemu-arch-extra
 
+
 	# applications / utils
 	htop
 	glances
 	devtools
 	ranger
-  w3m
+ 	w3m
 	mutt
 	fzf
 	bat
@@ -100,7 +102,7 @@ pacman_packages=(
 	hub
 	nmap
 	firejail
-  reflector
+  	reflector
 )
 
 aur_packages=(
