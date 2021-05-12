@@ -24,7 +24,6 @@ pacman_packages=(
 	gcc
 	llvm
 	emscripten
-	dlang-dmd
 
 	#languages
 	go
@@ -34,13 +33,12 @@ pacman_packages=(
 	perl
 	python
 	python2
+	dmd
 	
 	# text editors 
 	emacs # search for spacemacs
 	vim
 	neovim
-	python-neovim
-	python2-neovim
 	code
 
 	# terminal
@@ -62,7 +60,6 @@ pacman_packages=(
 	nitrogen
 	compton
 
-
 	# virtualization / containerization
 	docker
 	docker-machine
@@ -72,7 +69,6 @@ pacman_packages=(
 	virtualbox-host-modules-arch
 	qemu
 	qemu-arch-extra
-
 
 	# applications / utils
 	htop
@@ -117,6 +113,7 @@ aur_packages=(
 	google-chrome
 	barrier
 	nvm
+	rvm
 )
 
 install_using_pacman() {
