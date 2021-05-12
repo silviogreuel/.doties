@@ -5,7 +5,7 @@ ZSH_THEME="muse"
 
 
 #----------Plugins----------
-plugins=(ssh-agent fzf git terraform go golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting github)
+plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-history-substring-search zsh-syntax-highlighting github ruby rake gem rails)
 
 #----------Config-----------
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'
@@ -31,11 +31,16 @@ export LC_TELEPHONE="en_US.utf8"
 export LC_MEASUREMENT="en_US.utf8"
 export LC_IDENTIFICATION="en_US.utf8"
 export LC_ALL="en_US.utf8"
-export TERMINAL="konsole"
+export TERMINAL="alacritty"
+export NVM_DIR=~/.nvm
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 #----------Sources----------
 source $ZSH/oh-my-zsh.sh
 source /usr/share/nvm/init-nvm.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
 
 
 #-------Env-Variables-------
@@ -52,6 +57,3 @@ alias ohmyzsh='vim ~/.oh-my-zsh'
 alias vimrc="vim ~/.vimrc"
 alias mkcd="mkdir \!^; cd \!^1"
 
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
