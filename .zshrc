@@ -55,10 +55,3 @@ alias mkcd="mkdir \!^; cd \!^1"
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# tabtab source for serverless package
-# uninstall by removing these lines or running `tabtab uninstall serverless`
-[[ -f /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.zsh
-# tabtab source for sls package
-# uninstall by removing these lines or running `tabtab uninstall sls`
-[[ -f /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /home/greuel/.npm/_npx/5337/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.zsh
