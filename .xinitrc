@@ -16,7 +16,7 @@ fi
 
 
 # Default window manager
-session=${1:-i3}
+session=${1:-sway}
 
 # To start another exec
 # $ xinit wmaker
@@ -24,6 +24,8 @@ session=${1:-i3}
 # startx ~/.xinitrc gnome
 
 case $session in
+  sway              ) exec sway;;
+  i3|i3wm           ) exec i3;;
 	awesome           ) exec awesome;;
 	bspwm             ) exec bspwm;;
 	catwm             ) exec catwm;;
