@@ -25,6 +25,7 @@ Plug 'zchee/deoplete-go', { 'do': 'make' }
 " syntax/colorscheme
 Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/syntastic'
+Plug 'shaunsingh/moonlight.nvim'
 Plug 'w0rp/ale'
 
 " misc
