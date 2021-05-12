@@ -55,10 +55,13 @@ pacman_packages=(
 	i3-gaps
 	i3status
 	sway
+	swaylock
+	swayidle
 	dmenu
 	rofi
 	nitrogen
 	compton
+
 
 	# virtualization / containerization
 	docker
