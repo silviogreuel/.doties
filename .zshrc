@@ -41,6 +41,7 @@ source /usr/share/nvm/init-nvm.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
+[ -f ~/.rvm/scripts/rvm] && source ~/.rvm/scripts/rvm
 
 
 #-------Env-Variables-------
