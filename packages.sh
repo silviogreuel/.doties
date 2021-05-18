@@ -108,6 +108,8 @@ aur_packages=(
 	polybar
 
 	# applications / utils
+	insomnia-bin
+	postman-bin
 	ngrok
 	google-chrome
 	barrier
