@@ -46,7 +46,7 @@ source /usr/share/nvm/init-nvm.sh
 
 
 #-------Env-Variables-------
-export BROWSER='firefox'
+export BROWSER='google-chrome-stable'
 export MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man
 export ANDROID_HOME=/opt/android-sdk
 export GOPATH=~/go
