@@ -32,6 +32,7 @@ export LC_MEASUREMENT="en_US.utf8"
 export LC_IDENTIFICATION="en_US.utf8"
 export LC_ALL="en_US.utf8"
 export TERMINAL="alacritty"
+export TERM=alacritty
 export NVM_DIR=~/.nvm
 export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
