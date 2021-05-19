@@ -22,6 +22,13 @@ Plug 'fatih/vim-go', { 'do': ':GoInstallBinaries' }
 Plug 'stamblerre/gocode', { 'rtp': 'nvim', 'do': '~/.vim/plugged/gocode/nvim/symlink.sh' }
 Plug 'zchee/deoplete-go', { 'do': 'make' }
 
+" ruby
+Plug 'vim-ruby/vim-ruby'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-bundler'
+Plug 'tpope/vim-rake'
+Plug 'ngmy/vim-rubocop'
+
 " syntax/colorscheme
 Plug 'flazz/vim-colorschemes'
 Plug 'scrooloose/syntastic'
