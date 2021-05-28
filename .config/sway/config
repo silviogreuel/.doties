@@ -1,4 +1,5 @@
 xwayland disable
+exec dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=sway
 exec_always --no-startup-id ~/.i3/polybar.sh &
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id synclient TapButton1=1   
