@@ -29,7 +29,7 @@ floating_modifier $mod
 floating_minimum_size 75x50
 
 # start a terminal
-bindsym $mod+Return exec konsole
+bindsym $mod+Return exec kitty
 
 # kill focused window
 bindsym $mod+Shift+q kill
