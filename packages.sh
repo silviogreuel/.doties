@@ -48,6 +48,7 @@ pacman_packages=(
 	zsh
 
 	# window managers / desktop 
+	xorg
 	xorg-xinit
 	i3-gaps
 	i3status
@@ -103,6 +104,7 @@ pacman_packages=(
 	reflector
 	jq
 	yq
+	xclip
 )
 
 aur_packages=(
