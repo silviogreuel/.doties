@@ -61,6 +61,7 @@ pacman_packages=(
 	compton
 
 	# virtualization / containerization
+	kubectl
 	docker
 	docker-machine
 	docker-compose
