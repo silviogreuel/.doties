@@ -62,6 +62,7 @@ pacman_packages=(
 
 	# virtualization / containerization
 	kubectl
+	helm
 	docker
 	docker-machine
 	docker-compose
