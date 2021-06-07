@@ -87,6 +87,9 @@ augroup omnisharp_commands
 
 augroup END
 
+"fzf
+nmap <C-P> :FZF<CR>
+nmap <C-P><C-P> :Rg<CR>
 
 "deoplete
 imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
@@ -96,3 +99,4 @@ imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
 "doties
 map <f12> :NERDTree ~/.doties<cr>
 nmap <leader><f12> :source $MYVIMRC<cr>
+
