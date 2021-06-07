@@ -56,7 +56,20 @@ nmap <f7> :NERDTreeToggle<cr>
 "tagbar
 nmap <f8> :TagbarToggle<cr> 
 
-augroup golang
+"fzf
+nmap <C-P> :FZF<CR>
+nmap <C-P><C-P> :Rg<CR>
+
+"deoplete
+imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
+imap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<tab>"
+imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
+
+"doties
+map <f12> :NERDTree ~/.doties<cr>
+nmap <leader><f12> :source $MYVIMRC<cr>
+
+augroup go_files
 	autocmd!
 	autocmd FileType go nmap <buffer> <f9> :DlvToggleBreakpoint<cr>
 	autocmd FileType go nmap <buffer> <C-f9> :DlvDebug<cr>
@@ -64,7 +77,7 @@ augroup golang
 	autocmd FileType go nmap <buffer> <C-f10> :GoRun %<cr>
 augroup END
 
-augroup omnisharp_commands
+augroup cs_files
 	autocmd!
   
 	autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
@@ -84,19 +97,9 @@ augroup omnisharp_commands
 
 	autocmd FileType cs nnoremap <buffer> <C-k> :OmniSharpNavigateUp<CR>
 	autocmd FileType cs nnoremap <buffer> <C-j> :OmniSharpNavigateDown<CR>
-
 augroup END
 
-"fzf
-nmap <C-P> :FZF<CR>
-nmap <C-P><C-P> :Rg<CR>
-
-"deoplete
-imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
-imap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<tab>"
-imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
-
-"doties
-map <f12> :NERDTree ~/.doties<cr>
-nmap <leader><f12> :source $MYVIMRC<cr>
+augroup rb_files
+	autocmd!
+augroup END
 
