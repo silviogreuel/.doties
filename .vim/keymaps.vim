@@ -57,8 +57,10 @@ nmap <f7> :NERDTreeToggle<cr>
 nmap <f8> :TagbarToggle<cr> 
 
 "fzf
-nmap <C-P> :FZF<CR>
+nmap <C-P> :Files<CR>
 nmap <C-P><C-P> :Rg<CR>
+nmap <C-P><C-M> :Marks<CR>
+nmap <C-P><C-B> :Buffers<CR>
 
 "deoplete
 imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
