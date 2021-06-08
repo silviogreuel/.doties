@@ -53,7 +53,7 @@ Plug 'sebdah/vim-delve'
 Plug 'mattn/webapi-vim'
 Plug 'mattn/gist-vim'
 Plug 'dkprice/vim-easygrep'
-Plug 'terryma/vim-multiple-cursors'
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
 Plug 'yardnsm/vim-import-cost', { 'do': 'npm install' }
 
 " presentation
