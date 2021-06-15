@@ -1,5 +1,6 @@
 export ZSH=$HOME/.oh-my-zsh
 
+
 #----------Themes-----------
 ZSH_THEME="muse"
 
@@ -7,8 +8,10 @@ ZSH_THEME="muse"
 #----------Plugins----------
 plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-syntax-highlighting history-substring-search github ruby rake gem rails kops kubectl helm)
 
+
 #----------Config-----------
 ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=black'
+
 
 #-------Configuration-------
 export PATH=$HOME/bin:/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/home/silvio/.composer/vendor/bin
@@ -42,8 +45,8 @@ source /usr/share/nvm/init-nvm.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
-[ -f ~/.rvm/scripts/rvm ] && source ~/.rvm/scripts/rvm
 
+eval "$(rbenv init -)"
 
 #-------Env-Variables-------
 export BROWSER='google-chrome-stable'
@@ -53,6 +56,7 @@ export GOPATH=~/go
 export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.protoc/bin
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
+
 
 #----------Aliases----------
 alias zshconfig='vim ~/.zshrc'

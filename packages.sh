@@ -120,7 +120,8 @@ aur_packages=(
 	google-chrome
 	barrier
 	nvm
-	rvm
+	ruby-build
+	rbenv
 )
 
 install_using_pacman() {
