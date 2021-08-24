@@ -11,6 +11,9 @@ set previewheight=5
 set mouse=a
 set cursorcolumn
 set cursorline
+set showbreak=↪
+set listchars=tab:→\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨,space:·
+set list
 
 " omnisharp
 let g:OmniSharp_server_type = 'roslyn'
