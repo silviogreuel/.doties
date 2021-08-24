@@ -37,7 +37,7 @@ export LC_ALL="en_US.utf8"
 export TERMINAL=kitty
 export TERM=kitty
 export NVM_DIR=~/.nvm
-export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+export PATH="$HOME/.rbenv/bin:$PATH"
 
 #----------Sources----------
 source $ZSH/oh-my-zsh.sh
@@ -47,6 +47,7 @@ source /usr/share/nvm/init-nvm.sh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
 
 eval "$(rbenv init -)"
+
 
 #-------Env-Variables-------
 export BROWSER='google-chrome-stable'
