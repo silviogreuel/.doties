@@ -9,6 +9,8 @@ set nowrap
 set completeopt-=preview
 set previewheight=5
 set mouse=a
+set cursorcolumn
+set cursorline
 
 " omnisharp
 let g:OmniSharp_server_type = 'roslyn'
