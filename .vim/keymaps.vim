@@ -101,3 +101,9 @@ augroup cs_files
 	autocmd FileType cs nnoremap <buffer> <C-j> :OmniSharpNavigateDown<CR>
 augroup END
 
+
+augroup rb_files
+	autocmd!
+
+	autocmd FileType rb nnoremap <buffer> <f9> :!ruby %<CR>
+augroup END
