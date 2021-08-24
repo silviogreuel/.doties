@@ -9,5 +9,5 @@ bind refs d !?@git branch -d %(branch)
 bind status P !git push origin
 bind status D !?@rm %(file)
 bind status S !?git stash save --keep-index %(prompt)
-bind status O !git push --set-upstream origin %(branch)
+bind status O !git push -u origin %(branch)
 bind status H !sh -c "tig \"$(git rev-parse --show-toplevel)/%(file)\""
