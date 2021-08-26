@@ -5,7 +5,7 @@ set expandtab
 set shiftwidth=2
 set backspace=2
 set nowrap
-"set completeopt=longest,menuone,preview
+set completeopt=menu,menuone,preview,noselect,noinsert
 set completeopt-=preview
 set previewheight=5
 set mouse=a
@@ -107,6 +107,7 @@ let g:go_highlight_functions=1
 "\ }
 
 " ale
+let g:ale_completion_enabled = 1
 highlight ALEWarning ctermbg=none cterm=reverse
 highlight ALEError ctermbg=none cterm=reverse
 highlight ALEInfo ctermbg=none cterm=reverse
