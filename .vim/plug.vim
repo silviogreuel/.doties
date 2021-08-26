@@ -31,7 +31,7 @@ Plug 'ngmy/vim-rubocop'
 
 " syntax/colorscheme
 Plug 'flazz/vim-colorschemes'
-Plug 'scrooloose/syntastic'
+"Plug 'scrooloose/syntastic'
 Plug 'shaunsingh/moonlight.nvim'
 Plug 'w0rp/ale'
 
