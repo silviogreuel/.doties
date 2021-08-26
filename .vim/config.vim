@@ -25,22 +25,22 @@ let g:OmniSharp_server_path = join([expand('~'), '.omnisharp', 'omnisharp-roslyn
 let g:OmniSharp_timeout=5
 
 " deoplete
-if has('nvim')
-	let g:deoplete#enable_at_startup = 1
-endif
-let g:deoplete#enable_smart_case = 1
-let g:deoplete#sources = {}
-"let g:deoplete#sources._=['buffer', 'ultisnips', 'file', 'dictionary']
-"let g:deoplete#sources._ = ['neosnippet', 'buffer', 'file', 'dictionary']
-let g:deoplete#sources.cs = ['cs', 'ultisnips', 'buffer']
-let g:deoplete#sources.python = ['jedi', 'ultisnips', 'buffer']
-let g:deoplete#sources.javascript = ['ternjs', 'ultisnips', 'buffer']
-let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
-let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
-let g:deoplete#omni#input_patterns = {}
-let g:deoplete#omni#input_patterns.cs = ['\w*']
-let g:deoplete#omni#input_patterns.rust = '[(\.)(::)]'
-let g:deoplete#keyword_patterns = {}
+"if has('nvim')
+"	let g:deoplete#enable_at_startup = 1
+"endif
+"let g:deoplete#enable_smart_case = 1
+"let g:deoplete#sources = {}
+""let g:deoplete#sources._=['buffer', 'ultisnips', 'file', 'dictionary']
+""let g:deoplete#sources._ = ['neosnippet', 'buffer', 'file', 'dictionary']
+"let g:deoplete#sources.cs = ['cs', 'ultisnips', 'buffer']
+"let g:deoplete#sources.python = ['jedi', 'ultisnips', 'buffer']
+"let g:deoplete#sources.javascript = ['ternjs', 'ultisnips', 'buffer']
+"let g:deoplete#sources#go#gocode_binary = $GOPATH.'/bin/gocode'
+"let g:deoplete#sources#go#sort_class = ['package', 'func', 'type', 'var', 'const']
+"let g:deoplete#omni#input_patterns = {}
+"let g:deoplete#omni#input_patterns.cs = ['\w*']
+"let g:deoplete#omni#input_patterns.rust = '[(\.)(::)]'
+"let g:deoplete#keyword_patterns = {}
 
 " Shougo/neosnippet
 let g:neosnippet#enable_completed_snippet = 1
