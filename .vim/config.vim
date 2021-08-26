@@ -58,9 +58,13 @@ let g:tagbar_width=30
 
 " vim-airline
 set laststatus=2
+let g:airline_powerline_fonts=1  "Mesloirline_powerline_fonts = 1
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#branch#enabled=1
-let g:airline_powerline_fonts=1  "Mesloirline_powerline_fonts = 1
+let g:airline#extensions#ale#enabled = 1
+let g:airline#extensions#ale#error_symbol="\uf05e:"
+let g:airline#extensions#ale#warning_symbol="\uf071:"
+let g:airline#extensions#ale#checking_symbol="\uf110"
 
 " vim-go
 let g:go_fmt_command = "goimports"
@@ -102,12 +106,31 @@ let g:go_highlight_functions=1
 "\   'css' : [':']
 "\ }
 
+" ale
+highlight ALEWarning ctermbg=none cterm=reverse
+highlight ALEError ctermbg=none cterm=reverse
+highlight ALEInfo ctermbg=none cterm=reverse
+highlight ALEErrorSign ctermbg=NONE ctermfg=red
+highlight ALEWarningSign ctermbg=NONE ctermfg=yellow
+highlight ALEInfoSign ctermbg=NONE ctermfg=blue
+let g:ale_sign_error = '✘'
+let g:ale_sign_warning = '⚠'
+let g:ale_sign_info = 'ⓘ'
+let g:ale_sign_style_error = '✘'
+let g:ale_sign_style_warning = '⚠'
+let g:ale_sign_style_info = 'ⓘ'
+"let g:ale_sign_error = "\uf05e"
+"let g:ale_sign_warning = "\uf071"
+"let g:ale_sign_info = "\uf129"
+"let g:ale_sign_style_error = "\uf05e"
+"let g:ale_sign_style_warning = "\uf071"
+"let g:ale_sign_style_info = "\uf129"
 
 
 " syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
+"set statusline+=%#warningmsg#
+"set statusline+=%{SyntasticStatuslineFlag()}
+"set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
@@ -117,6 +140,7 @@ let g:syntastic_cpp_compiler = "g++"
 let g:syntastic_cpp_compiler_options = " -std=c++14"
 let g:syntastic_javascript_checkers = ['eslint']
 let g:syntastic_vue_checkers = ['eslint']
+let g:syntastic_enable_highlighting = 0
 
 " goyo
 function! GoyoBefore()
