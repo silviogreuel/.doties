@@ -3,13 +3,13 @@ call plug#begin('~/.vim/plugged')
 Plug 'junegunn/vim-plug'
 
 " auto complete
-if has('nvim')
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-else
-	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
-	Plug 'roxma/nvim-yarp'
-	Plug 'roxma/vim-hug-neovim-rpc'
-endif
+"if has('nvim')
+"	Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"else
+"	Plug 'Shougo/deoplete.nvim'
+"	Plug 'roxma/nvim-yarp'
+"	Plug 'roxma/vim-hug-neovim-rpc'
+"endif
 
 " snippets
 Plug 'Shougo/neosnippet'
@@ -32,7 +32,6 @@ Plug 'ngmy/vim-rubocop'
 " syntax/colorscheme
 Plug 'flazz/vim-colorschemes'
 "Plug 'scrooloose/syntastic'
-Plug 'shaunsingh/moonlight.nvim'
 Plug 'w0rp/ale'
 
 " misc
