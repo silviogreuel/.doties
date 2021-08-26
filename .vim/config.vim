@@ -126,6 +126,9 @@ let g:ale_sign_style_info = 'ⓘ'
 "let g:ale_sign_style_error = "\uf05e"
 "let g:ale_sign_style_warning = "\uf071"
 "let g:ale_sign_style_info = "\uf129"
+let g:ale_linters = {
+\   'ruby': ['solargraph', 'reek', 'rubocop', 'brakeman']
+\}
 let g:ale_fix_on_save = 1
 let g:ale_fixers = {
 \   '*': ['remove_trailing_lines', 'trim_whitespace'],
