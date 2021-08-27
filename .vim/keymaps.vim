@@ -54,7 +54,7 @@ nmap <f6> :GundoToggle<cr>
 nmap <f7> :NERDTreeToggle<cr>
 
 "tagbar
-nmap <f8> :TagbarToggle<cr> 
+nmap <f8> :TagbarToggle<cr>
 
 "fzf
 nmap <C-P> :Files<CR>
@@ -63,9 +63,9 @@ nmap <C-P><C-M> :Marks<CR>
 nmap <C-P><C-B> :Buffers<CR>
 
 "deoplete
-imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
-imap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<tab>"
-imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
+"imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
+"imap <expr> <s-tab> pumvisible() ? "\<c-p>" : "\<tab>"
+"imap <expr> <cr> pumvisible() ? deoplete#close_popup() : "\<cr>"
 
 "doties
 map <f12> :NERDTree ~/.doties<cr>
@@ -81,7 +81,7 @@ augroup END
 
 augroup cs_files
 	autocmd!
-  
+
 	autocmd CursorHold *.cs call OmniSharp#TypeLookupWithoutDocumentation()
 
 	autocmd FileType cs nnoremap <buffer> gd :OmniSharpGotoDefinition<CR>
