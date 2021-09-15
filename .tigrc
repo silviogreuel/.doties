@@ -3,6 +3,7 @@ bind main S !?git reset --soft %(commit)
 bind main H !?git reset --hard %(commit)
 bind main u !git rev-list %(commit)..master --ancestry-path
 bind main U !git rev-list %(commit)..master --first-parent
+bind main B !git checkout -b %(prompt) %(commit)
 bind diff H !sh -c "tig \"$(git rev-parse --show-toplevel)/%(file)\""
 bind refs n !@git branch %(prompt)
 bind refs d !?@git branch -d %(branch)
