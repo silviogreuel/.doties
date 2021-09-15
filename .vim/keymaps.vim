@@ -60,7 +60,7 @@ nmap <f8> :TagbarToggle<cr>
 nmap <C-P> :Files<CR>
 nmap <C-P><C-P> :Rg<CR>
 nmap <C-P><C-M> :Marks<CR>
-nmap <C-P><C-B> :Buffers<CR>
+nmap <C-P><C-N> :Buffers<CR>
 
 "deoplete
 "imap <expr> <tab>   pumvisible() ? "\<c-n>" : "\<tab>"
