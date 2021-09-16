@@ -108,5 +108,7 @@ augroup END
 augroup rb_files
 	autocmd!
 
-	autocmd FileType rb nnoremap <buffer> <f9> :!ruby %<CR>
+	autocmd FileType ruby nnoremap <buffer> <f9> :!ruby %<cr>
+	autocmd FileType ruby nnoremap <buffer> <leader>fd :ALEFindReferences<cr>
+	autocmd FileType ruby nnoremap <buffer> <leader>df :ALEGoToDefinition<cr>
 augroup END
