@@ -30,6 +30,9 @@ if &diff
     map <leader>3 :diffget REMOTE<CR>
 endif
 
+"tig
+nmap <leader>t :!tig<cr>
+
 "UltiSnips
 let g:UltiSnipsExpandTrigger = "<c-a>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
