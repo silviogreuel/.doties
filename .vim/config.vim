@@ -137,6 +137,7 @@ let g:ale_fixers = {
 \   'typescript': ['eslint'],
 \   'css': ['prettier']
 \}
+command! ALEToggleFixer execute "let g:ale_fix_on_save = get(g:, 'ale_fix_on_save', 0) ? 0 : 1"
 
 " syntastic
 "set statusline+=%#warningmsg#
