@@ -3,7 +3,7 @@
 dir=~/.doties
 olddir=~/.doties/old
 
-doties=".bin .bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zprofile .tmux.conf .zshprofile .globalgitignore .vimperatorrc .tigrc .config/i3 .config/sway .config/rofi .config/compton .config/nvim"
+doties=".bin .bashrc .vimrc .vim .zshrc .gitconfig .mouserc .xinitrc .zprofile .tmux.conf .zshprofile .globalgitignore .vimperatorrc .tigrc .config/i3 .config/sway .config/rofi .config/compton .config/nvim .config/kitty"
 
 run() {
 	backup_old_doties
@@ -17,7 +17,7 @@ backup_old_doties() {
 	for dotie in $doties; do
 		echo "Moving $dotie"
 		mv ~/$dotie $olddir
-	done	
+	done
 
 	echo "Done!"
 }
@@ -30,7 +30,7 @@ symlink_doties() {
 		echo "Symlinking $dotie"
 		ln -s $dir/$dotie ~/$dotie
 	done
-	
+
 	echo "Done!"
 }
 
