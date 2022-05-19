@@ -1,5 +1,7 @@
 export ZSH=$HOME/.oh-my-zsh
 
+autoload -Uz compinit
+compinit
 
 #----------Themes-----------
 ZSH_THEME="muse"
@@ -41,7 +43,7 @@ export TERM=kitty
 source $ZSH/oh-my-zsh.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
+[ -f /opt/asdf-vm/asdf.sh ] && source /opt/asdf-vm/asdf.sh
 
 
 #-------Env-Variables-------
