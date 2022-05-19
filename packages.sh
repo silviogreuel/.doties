@@ -28,7 +28,7 @@ pacman_packages=(
 	#languages
 	go
 	delve
-	lua
+	#lua
 	perl
 	python
 	python2
@@ -119,9 +119,9 @@ aur_packages=(
 	ngrok
 	google-chrome
 	barrier
-	nvm
-	ruby-build
-	rbenv
+
+	# languages
+	asdf-vm
 )
 
 install_using_pacman() {
