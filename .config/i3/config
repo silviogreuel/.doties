@@ -1,10 +1,11 @@
 exec_always --no-startup-id ~/.i3/polybar.sh &
 exec_always --no-startup-id nitrogen --restore
-exec_always --no-startup-id synclient TapButton1=1   
-exec_always --no-startup-id synclient TapButton2=2   
-exec --no-startup-id compton --config ~/.config/compton/config -b 
+exec_always --no-startup-id synclient TapButton1=1
+exec_always --no-startup-id synclient TapButton2=2
+exec --no-startup-id compton --config ~/.config/compton/config -b
+exec xrdb -merge ~/.Xresources
 
-for_window [class="^.*"] border pixel 5 
+for_window [class="^.*"] border pixel 5
 
 set $mod Mod4
 set $alt Mod1
@@ -84,7 +85,7 @@ bindsym $mod+e layout toggle split
 
 # toggle tiling / floating
 bindsym $mod+Shift+space floating toggle
-# toggle sticky window 
+# toggle sticky window
 bindsym $mod+Shift+s sticky toggle
 
 # change focus between tiling / floating windows
@@ -168,9 +169,9 @@ mode "resize" {
         bindsym Escape mode "default"
 }
 
-# gaps 
-gaps inner 10 
-gaps outer 0 
+# gaps
+gaps inner 10
+gaps outer 0
 set $mode_gaps Gaps: (o) outer, (i) inner
 set $mode_gaps_outer Outer Gaps: +|-|-3 (local), Shift + +|-|0 (global)
 set $mode_gaps_inner Inner Gaps: +|-|0 (local), Shift + +|-|0 (global)
