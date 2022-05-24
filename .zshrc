@@ -8,7 +8,7 @@ ZSH_THEME="muse"
 
 
 #----------Plugins----------
-plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-syntax-highlighting history-substring-search github ruby rake gem rails kops kubectl helm asdf)
+plugins=(ssh-agent fzf git terraform golang tmux docker docker-compose aws zsh-autosuggestions zsh-syntax-highlighting history-substring-search github ruby rake gem rails kops kubectl helm)
 
 
 #----------Config-----------
@@ -56,6 +56,9 @@ export PATH=$PATH:~/go/bin
 export PATH=$PATH:~/.protoc/bin
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=6'
 
+
+export ODBCSYSINI=~/Library/ODBC
+export ODBCINI=~/Library/ODBC/odbc.ini
 
 #----------Aliases----------
 alias zshconfig='vim ~/.zshrc'
