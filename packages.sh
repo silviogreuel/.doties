@@ -14,7 +14,7 @@ pacman_packages=(
 	dkms
 	linux-headers
 
-	# programming 
+	# programming
 	ctags
 	clang
 	make
@@ -33,8 +33,8 @@ pacman_packages=(
 	python
 	python2
 	dmd
-	
-	# text editors 
+
+	# text editors
 	emacs # search for spacemacs
 	vim
 	neovim
@@ -47,7 +47,7 @@ pacman_packages=(
 	tmux
 	zsh
 
-	# window managers / desktop 
+	# window managers / desktop
 	xorg
 	xorg-xinit
 	i3-gaps
@@ -119,9 +119,6 @@ aur_packages=(
 	ngrok
 	google-chrome
 	barrier
-
-	# languages
-	asdf-vm
 )
 
 install_using_pacman() {
@@ -156,4 +153,3 @@ install_using_yay() {
 
 install_using_pacman "${pacman_packages[@]}"
 install_using_yay "${aur_packages[@]}"
-
