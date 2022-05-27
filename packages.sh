@@ -38,7 +38,6 @@ pacman_packages=(
 	emacs # search for spacemacs
 	vim
 	neovim
-	code
 
 	# terminal
 	alacritty
@@ -110,6 +109,10 @@ pacman_packages=(
 )
 
 aur_packages=(
+  # text editors
+  vscodium
+	nvim-packer-git
+
 	# window managers / utils
 	polybar
 
