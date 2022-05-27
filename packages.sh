@@ -122,6 +122,7 @@ aur_packages=(
 	ngrok
 	google-chrome
 	barrier
+  fswatch
 )
 
 install_using_pacman() {
