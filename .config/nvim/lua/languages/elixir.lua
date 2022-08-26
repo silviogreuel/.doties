@@ -93,7 +93,7 @@ lspconfig.elixirls.setup {
   capabilities = capabilities,
   settings = {
     elixirLS = {
-      dialyzerEnabled = false,
+      dialyzerEnabled = true,
       fetchDeps = false
     }
   }
