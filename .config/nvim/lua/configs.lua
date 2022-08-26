@@ -20,4 +20,4 @@ opt.list = true
 opt.splitbelow = true
 opt.splitright = true
 
-cmd [[autocmd BufWritePre *.ex lua vim.lsp.buf.formatting_sync({}, 1500)]]
+cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.formatting_sync({}, 1500)]]
