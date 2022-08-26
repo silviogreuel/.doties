@@ -5,6 +5,7 @@ require('packer').startup(function()
 
   -- Languages
   use { 'neovim/nvim-lspconfig' }
+  use { 'mfussenegger/nvim-lint' }
 
   -- Autocompletion
   use { 'hrsh7th/nvim-cmp' }
@@ -42,6 +43,7 @@ require('setup.twilight')
 require('setup.zen-mode')
 require('setup.gitsigns')
 require('setup.dap')
+require('setup.nvim-lint')
 -- todo:
 -- daps
 -- vim-test
