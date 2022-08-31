@@ -30,6 +30,7 @@ require('packer').startup(function()
   use { 'kyazdani42/nvim-tree.lua', requires = { 'kyazdani42/nvim-web-devicons' } }
   use { 'nvim-telescope/telescope.nvim', requires = { 'nvim-lua/plenary.nvim' } }
   use { 'preservim/tagbar' }
+  use { 'tyru/open-browser-github.vim', requires = { 'tyru/open-browser.vim' } }
 
   -- Debuging
   use { 'rcarriga/nvim-dap-ui', requires = { 'mfussenegger/nvim-dap' } }
