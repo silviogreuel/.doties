@@ -16,7 +16,7 @@ fi
 
 
 # Default window manager
-session=${1:-sway}
+session=${1:-i3wm}
 
 # To start another exec
 # $ xinit wmaker
@@ -36,7 +36,6 @@ case $session in
 	fluxbox           ) exec startfluxbox;;
 	gnome             ) exec gnome-session;;
 	gnome-classic     ) exec gnome-session --session=gnome-classic;;
-	i3|i3wm           ) exec i3;;
 	icewm             ) exec icewm-session;;
 	jwm               ) exec jwm;;
 	kde               ) exec startkde;;
