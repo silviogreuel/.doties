@@ -19,5 +19,7 @@ opt.listchars = 'tab:→\\ ,eol:↲,nbsp:␣,trail:•,extends:⟩,precedes:⟨,
 opt.list = true
 opt.splitbelow = true
 opt.splitright = true
+opt.spell = true
+opt.spelllang = 'en_us'
 
 cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.formatting_sync({}, 1500)]]
