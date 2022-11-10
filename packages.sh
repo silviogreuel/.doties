@@ -70,6 +70,8 @@ pacman_packages=(
 	virtualbox-host-modules-arch
 	qemu
 	qemu-arch-extra
+  kubectx
+  kubie
 
 	# applications / utils
 	htop
@@ -109,6 +111,8 @@ pacman_packages=(
 )
 
 aur_packages=(
+  asdf-vm
+
   # text editors
   vscodium
 	nvim-packer-git
