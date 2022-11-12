@@ -11,6 +11,8 @@ local imap = _map("i")
 local omap = _map("o")
 
 -- select line
+vmap('Y', '"+y', { noremap = true })
+nmap('P', '"+p', { noremap = true })
 nmap('vv', '^vg_', { noremap = true })
 
 -- tab selection
