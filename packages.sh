@@ -74,7 +74,10 @@ pacman_packages=(
   kubie
 
 	# applications / utils
+  gdu
 	htop
+  nvtop
+  btop
 	glances
 	devtools
 	ranger
@@ -95,6 +98,7 @@ pacman_packages=(
 	alsa-utils
 	slop
 	maim
+  tesseract
 	exfat-utils
 	networkmanager
 	aws-cli
