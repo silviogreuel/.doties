@@ -123,8 +123,7 @@ bindsym $mod+Shift+0 move container to workspace 10
 
 # take screenshot
 bindsym Print exec maim -s | xclip -selection clipboard -t image/png
-bindsym $mod+Shift+S exec maim -s | xclip -selection clipboard -t image/png
-bindsym $mod+Shift+T exec maim -s | tesseract stdin stdout | xclip -selection  clipboard
+bindsym $mod+Print exec maim -s | tesseract stdin stdout | xclip -selection clipboard
 
 # record screen as a gif
 bindsym Ctrl+Print exec ~/.bin/start-gif.sh
