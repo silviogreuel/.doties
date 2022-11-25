@@ -39,6 +39,7 @@ nmap('<F4>', ':Twilight<cr>', { noremap = true, silent = true })
 nmap('<F7>', ':NvimTreeToggle<cr>')
 
 -- browsing
+
 nmap(
   '<C-p>',
   ':lua require("telescope.builtin").find_files()<cr>',
@@ -64,3 +65,19 @@ nmap(
   ':lua require("telescope.builtin").file_browser()<cr>',
   { noremap = true, silent = true }
 )
+nmap(
+  '<C-p><C-d>',
+  ':lua require("telescope.builtin").lsp_definitions()<cr>',
+  { noremap = true, silent = true }
+)
+nmap(
+  '<C-p><C-r>',
+  ':lua require("telescope.builtin").lsp_references()<cr>',
+  { noremap = true, silent = true }
+)
+nmap(
+  '<C-p><C-i>',
+  ':lua require("telescope.builtin").lsp_implementations()<cr>',
+  { noremap = true, silent = true }
+)
+
