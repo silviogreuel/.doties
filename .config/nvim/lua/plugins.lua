@@ -6,6 +6,7 @@ require('packer').startup(function()
   -- Languages
   use { 'neovim/nvim-lspconfig' }
   use { 'mfussenegger/nvim-lint' }
+  use { 'jose-elias-alvarez/null-ls.nvim' }
 
   -- Autocompletion
   use { 'hrsh7th/nvim-cmp' }
@@ -46,6 +47,7 @@ require('setup.zen-mode')
 require('setup.gitsigns')
 require('setup.dap')
 require('setup.nvim-lint')
+require('setup.null-ls')
 -- todo:
 -- daps
 -- vim-test
