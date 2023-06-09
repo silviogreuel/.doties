@@ -6,6 +6,7 @@ require('packer').startup(function()
   -- Languages
   use { 'neovim/nvim-lspconfig' }
   use { 'mfussenegger/nvim-lint' }
+  use { 'fatih/vim-go' } 
 
   -- Autocompletion
   use { 'hrsh7th/nvim-cmp' }
