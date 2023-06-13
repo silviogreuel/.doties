@@ -36,7 +36,7 @@ map('<C-l>', '<C-W>l')
 -- look and feel
 nmap('<F3>', ':ZenMode<cr>', { noremap = true, silent = true })
 nmap('<F4>', ':Twilight<cr>', { noremap = true, silent = true })
-nmap('<F7>', ':NvimTreeToggle<cr>')
+nmap('<F12>', ':NvimTreeToggle<cr>')
 
 -- testing
 nmap(
@@ -51,6 +51,12 @@ nmap(
   { noremap = true, silent = true }
 )
 
+
+nmap(
+  '<F7>',
+  '<cmd>lua require("neotest").output.open({ enter = true, auto_close = true })<cr>',
+  { noremap = true, silent = true }
+)
 
 -- browsing
 
