@@ -37,6 +37,18 @@ require('packer').startup(function()
   -- Debuging
   use { 'rcarriga/nvim-dap-ui', requires = { 'mfussenegger/nvim-dap' } }
 
+  -- Testing
+  use {
+    'nvim-neotest/neotest',
+    requires = {
+      'nvim-lua/plenary.nvim',
+      'nvim-treesitter/nvim-treesitter',
+      'antoinemadec/FixCursorHold.nvim',
+  -- adapters
+      'jfpedroza/neotest-elixir',
+    }
+  }
+
 end)
 
 require('setup.nvim-tree')
@@ -48,6 +60,7 @@ require('setup.gitsigns')
 require('setup.dap')
 require('setup.nvim-lint')
 require('setup.null-ls')
+require('setup.neotest')
 -- todo:
 -- daps
 -- vim-test

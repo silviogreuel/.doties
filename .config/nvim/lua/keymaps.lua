@@ -38,6 +38,20 @@ nmap('<F3>', ':ZenMode<cr>', { noremap = true, silent = true })
 nmap('<F4>', ':Twilight<cr>', { noremap = true, silent = true })
 nmap('<F7>', ':NvimTreeToggle<cr>')
 
+-- testing
+nmap(
+  '<F5>',
+  ':lua require("neotest").run.run(vim.fn.expand("%"))<cr>',
+  { noremap = true, silent = true }
+)
+
+nmap(
+  '<F6>',
+  '<cmd>lua require("neotest").summary.toggle()<cr>',
+  { noremap = true, silent = true }
+)
+
+
 -- browsing
 
 nmap(
