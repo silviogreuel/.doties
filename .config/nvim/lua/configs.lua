@@ -22,4 +22,5 @@ opt.splitright = true
 opt.spell = true
 opt.spelllang = 'en_us'
 
-cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.formatting_sync({}, 1500)]]
+-- cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.formatting_sync({}, 1500)]]
+cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.format()]]

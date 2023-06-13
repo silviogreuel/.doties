@@ -48,7 +48,9 @@ source $ZSH/oh-my-zsh.sh
 
 #-------Env-Variables-------
 export BROWSER='google-chrome-stable'
-export CHROME_USER_FLAGS='--force-device-scale-factor=2 --high-dpi-support=1'
+export CHROME_USER_FLAGS='--force-device-scale-factor=1.8 --high-dpi-support=1'
+#export CHROME_USER_FLAGS='--force-device-scale-factor=2 --high-dpi-support=1'
+
 export MANPATH=/usr/local/man:/usr/local/share/man:/usr/share/man
 export ANDROID_HOME=/opt/android-sdk
 export GOPATH=~/go

@@ -26,7 +26,7 @@ local on_attach = function(capabilities)
     vim.cmd [[imap <expr> <S-tab> vsnip#jumpable(-1) ? '<Plug>(vsnip-jump-prev)' : '<S-tab>']]
     vim.cmd [[smap <expr> <S-tab> vsnip#jumpable(-1) ? '<Plug>(vsnip-jump-prev)' : '<S-tab>']]
 
-    require("cmp_nvim_lsp").update_capabilities(capabilities)
+    require("cmp_nvim_lsp").default_capabilities(capabilities)
   end
 end
 
