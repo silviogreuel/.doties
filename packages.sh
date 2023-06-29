@@ -102,6 +102,7 @@ pacman_packages=(
 	exfat-utils
 	networkmanager
 	aws-cli
+	aws-iam-authenticator
 	terraform
 	dhclient
 	tree
