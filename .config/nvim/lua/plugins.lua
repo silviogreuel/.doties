@@ -23,6 +23,7 @@ require('packer').startup(function()
 
   -- Look and feel
   use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate' }
+  use { 'nvim-treesitter/playground' }
   use { 'folke/zen-mode.nvim' }
   use { 'folke/twilight.nvim' }
   use { 'navarasu/onedark.nvim' }
