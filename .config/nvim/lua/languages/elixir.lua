@@ -12,8 +12,8 @@ local on_attach = function(capabilities)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>H', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>h', '<cmd>lua vim.lsp.buf.signature_help()<cr>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>cr', '<cmd>lua vim.lsp.buf.rename()<cr>', opts)
-    vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
-    vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>cf', '<cmd>lua vim.lsp.buf.formatting()<cr>', opts)
+    vim.api.nvim_buf_set_keymap(bufnr, 'n', '<A-space>', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
+    vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>cf', '<cmd>lua vim.lsp.buf.format()<cr>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '<leader>cd', '<cmd>lua vim.diagnostic.open_float()<cr>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', '[d', '<cmd>lua vim.diagnostic.goto_prev()<cr>', opts)
     vim.api.nvim_buf_set_keymap(bufnr, 'n', ']d', '<cmd>lua vim.diagnostic.goto_next()<cr>', opts)
@@ -94,7 +94,9 @@ lspconfig.elixirls.setup {
   settings = {
     elixirLS = {
       dialyzerEnabled = true,
-      fetchDeps = false
+      fetchDeps = false,
+      autoInsertRequiredAlias = true,
+      suggestSpecs = true
     }
   }
 }

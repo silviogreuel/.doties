@@ -33,6 +33,8 @@ pacman_packages=(
 	python
 	python2
 	dmd
+  gradle
+  java-environment
 
 	# text editors
 	emacs # search for spacemacs
