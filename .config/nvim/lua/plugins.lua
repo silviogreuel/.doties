@@ -17,6 +17,11 @@ require('packer').startup(function()
   use { 'hrsh7th/cmp-cmdline' }
   use { 'onsails/lspkind-nvim' }
 
+  -- Remote
+  use { 'tpope/vim-dadbod' }
+  use { 'kristijanhusak/vim-dadbod-ui' }
+  use { 'kristijanhusak/vim-dadbod-completion' }
+
   -- Snippets
   use {'hrsh7th/vim-vsnip'}
   use {'hrsh7th/cmp-vsnip'}
@@ -38,6 +43,7 @@ require('packer').startup(function()
 
   -- Debuging
   use { 'rcarriga/nvim-dap-ui', requires = { 'mfussenegger/nvim-dap' } }
+
 
   -- Testing
   use {
