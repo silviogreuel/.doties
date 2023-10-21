@@ -76,13 +76,17 @@ cmp.setup({
   sources = {
     { name = "nvim_lsp" },
     { name = "vsnip" },
+    { name = "vim-dadbod-completion" }
   },
   formatting = {
     format = require("lspkind").cmp_format({
       with_text = true,
       menu = {
         nvim_lsp = "[LSP]",
+        vim_dadbod_completion = "[DB]",
+        ['vim-dadbod-completion'] = '[DB]',
       },
+
     }),
   },
 })

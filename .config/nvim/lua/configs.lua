@@ -25,3 +25,46 @@ vim.g.mapleader = "\\"
 
 -- cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.formatting_sync({}, 1500)]]
 cmd [[autocmd BufWritePre *.{ex,exs} lua vim.lsp.buf.format()]]
+
+-- db_ui, move from here
+vim.g.db_ui_use_nerd_fonts = true
+vim.g.db_ui_win_position = 'right'
+vim.g.db_ui_show_database_icon = true
+-- vim.g.db_ui_icons = {
+--   expanded = '▾',
+--   collapsed= '▸',
+--   saved_query= '*',
+--   new_query= '+',
+--   tables= '~',
+--   buffers= '»',
+--   connection_ok= '✓',
+--   connection_error= '✕',
+-- }
+
+vim.g.db_ui_icons =  {
+  expanded = {
+    db = '▾ ',
+    buffers = '▾ ',
+    saved_queries = '▾ ',
+    schemas = '▾ ',
+    schema = '▾ פּ',
+    tables = '▾ 藺',
+    table = '▾ ',
+  },
+  collapsed = {
+    db = '▸ ',
+    buffers = '▸ ',
+    saved_queries = '▸ ',
+    schemas = '▸ ',
+    schema = '▸ פּ',
+    tables = '▸ 藺',
+    table = '▸ ',
+  },
+  saved_query = '',
+  new_query = '璘',
+  tables = '離',
+  buffers = '﬘',
+  add_connection = '',
+  connection_ok = '✓',
+  connection_error = '✕',
+}

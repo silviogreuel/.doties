@@ -18,9 +18,10 @@ require('packer').startup(function()
   use { 'onsails/lspkind-nvim' }
 
   -- Remote
-  use { 'tpope/vim-dadbod' }
   use { 'kristijanhusak/vim-dadbod-ui' }
-  use { 'kristijanhusak/vim-dadbod-completion' }
+  use { 'tpope/vim-dadbod'}
+  use { 'kristijanhusak/vim-dadbod-completion'}
+  use { 'pbogut/vim-dadbod-ssh' }
 
   -- Snippets
   use {'hrsh7th/vim-vsnip'}
