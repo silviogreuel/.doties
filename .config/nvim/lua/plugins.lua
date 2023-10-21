@@ -16,6 +16,10 @@ require('packer').startup(function()
   use { 'hrsh7th/cmp-path' }
   use { 'hrsh7th/cmp-cmdline' }
   use { 'onsails/lspkind-nvim' }
+  -- use { 'github/copilot.vim' }
+  use { 'zbirenbaum/copilot.lua' }
+
+
 
   -- Remote
   use { 'kristijanhusak/vim-dadbod-ui' }
@@ -71,6 +75,8 @@ require('setup.dap')
 require('setup.nvim-lint')
 require('setup.null-ls')
 require('setup.neotest')
+require('setup.cmp')
+require('setup.copilot')
 -- todo:
 -- daps
 -- vim-test
