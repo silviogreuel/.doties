@@ -2,7 +2,11 @@ exec_always --no-startup-id ~/.i3/polybar.sh &
 exec_always --no-startup-id nitrogen --restore
 exec_always --no-startup-id synclient TapButton1=1
 exec_always --no-startup-id synclient TapButton2=2
-exec --no-startup-id compton --config ~/.config/compton/config -b
+# exec --no-startup-id picom --config ~/.config/compton/config -b
+# exec --no-startup-id picom -f
+# exec --no-startup-id picom --config ~/.config/picom/picom.conf
+exec --no-startup-id picom --config ~/.config/picom/picom.conf -b
+
 exec xrdb -merge ~/.Xresources
 
 for_window [class="^.*"] border pixel 5
