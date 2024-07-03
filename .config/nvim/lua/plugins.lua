@@ -4,10 +4,14 @@ require('packer').startup(function()
   use { 'wbthomason/packer.nvim' }
 
   -- Languages
+  use { 'williamboman/mason.nvim' }
+  use { 'williamboman/mason-lspconfig.nvim' }
   use { 'neovim/nvim-lspconfig' }
-  use { 'mfussenegger/nvim-lint' }
+
   use { 'fatih/vim-go' }
   use { 'jose-elias-alvarez/null-ls.nvim' }
+  use { 'mfussenegger/nvim-lint' }
+  -- use { 'mhartington/formatter.nvim' }
 
   -- Autocompletion
   use { 'hrsh7th/nvim-cmp' }
@@ -18,8 +22,6 @@ require('packer').startup(function()
   use { 'onsails/lspkind-nvim' }
   -- use { 'github/copilot.vim' }
   use { 'zbirenbaum/copilot.lua' }
-
-
 
   -- Remote
   use { 'kristijanhusak/vim-dadbod-ui' }
@@ -47,8 +49,11 @@ require('packer').startup(function()
   use { 'tpope/vim-projectionist' }
 
   -- Debuging
+  use { 'mfussenegger/nvim-dap' }
   use { 'rcarriga/nvim-dap-ui', requires = { 'mfussenegger/nvim-dap' } }
 
+  -- Misc
+  use { "nvim-neotest/nvim-nio" }
 
   -- Testing
   use {
@@ -60,6 +65,8 @@ require('packer').startup(function()
   -- adapters
       'jfpedroza/neotest-elixir',
       'marilari88/neotest-vitest',
+
+
     }
   }
 
